@@ -1,36 +1,149 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌾 AgroGuard - Farmer Query Support System
 
-## Getting Started
+AgroGuard is a comprehensive farming solution that empowers farmers with smart technology for better farming practices. Built with Next.js 16, TypeScript, and Tailwind CSS v4.
 
-First, run the development server:
+## ✨ Features
 
+### 1. **Farm Analytics** 📊
+- Real-time farm performance monitoring
+- Yield tracking and trends visualization
+- Resource utilization metrics (water, fertilizer, etc.)
+- Revenue and productivity insights
+- Activity timeline and logging
+
+### 2. **Crop Recommendations** 💡
+- AI-powered crop suggestions
+- Based on soil type, climate, and season
+- Budget-aware recommendations
+- Expected yield and investment calculations
+- Detailed crop suitability analysis
+
+### 3. **Crop Health Checker** 📷
+- Image-based disease detection
+- Upload crop images for instant analysis
+- Disease identification with confidence scores
+- Treatment recommendations
+- Prevention tips and best practices
+
+### 4. **Government Schemes** 📋
+- Latest agricultural schemes and subsidies
+- Detailed eligibility criteria
+- Application guidelines
+- Scheme categories: Income Support, Crop Insurance, Credit Support, etc.
+- Direct links to official resources
+
+### 5. **Authentication** 🔐
+- Secure login/logout system
+- Modern and user-friendly interface
+- Ready for backend integration
+
+### 6. **Modern Landing Page** 🎨
+- Beautiful hero section
+- Feature highlights
+- Benefits overview
+- Call-to-action sections
+
+## 🚀 Tech Stack
+
+- **Framework:** Next.js 16 (App Router)
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS v4
+- **Icons:** Lucide React
+- **Fonts:** Geist Sans & Geist Mono
+
+## 📦 Installation
+
+1. Clone the repository:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone <your-repo-url>
+cd agroguard
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies:
+```bash
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Run the development server:
+```bash
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. Open [http://localhost:3000](http://localhost:3000) with your browser
 
-## Learn More
+## 📁 Project Structure
 
-To learn more about Next.js, take a look at the following resources:
+```
+agroguard/
+├── src/
+│   ├── app/
+│   │   ├── analytics/          # Farm analytics page
+│   │   ├── recommendations/    # Crop recommendations page
+│   │   ├── health-checker/     # Crop health checker page
+│   │   ├── schemes/            # Government schemes page
+│   │   ├── login/              # Login page
+│   │   ├── page.tsx            # Landing page
+│   │   ├── layout.tsx          # Root layout
+│   │   └── globals.css         # Global styles
+│   └── components/
+│       ├── Navbar.tsx          # Navigation component
+│       └── Footer.tsx          # Footer component
+├── public/                     # Static assets
+└── package.json
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🎯 Key Pages
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **/** - Landing page with features overview
+- **/login** - Authentication page
+- **/analytics** - Farm performance dashboard
+- **/recommendations** - Crop recommendation system
+- **/health-checker** - Image-based disease detection
+- **/schemes** - Government schemes information
 
-## Deploy on Vercel
+## 🔧 Development
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Build for Production
+```bash
+npm run build
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Start Production Server
+```bash
+npm start
+```
+
+### Run Linting
+```bash
+npm run lint
+```
+
+## 🎨 Color Scheme
+
+- **Primary Green:** #16a34a
+- **Dark Green:** #15803d
+- **Secondary Green:** #059669
+- **Accent Yellow:** #fbbf24
+
+## 📝 Future Enhancements
+
+- [ ] Backend API integration
+- [ ] Real-time weather data
+- [ ] Multi-language support
+- [ ] Mobile app version
+- [ ] Advanced analytics with charts
+- [ ] Community forum
+- [ ] Expert consultation booking
+- [ ] Marketplace integration
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## 📄 License
+
+This project is open source and available under the MIT License.
+
+## 🌟 Acknowledgments
+
+Built with ❤️ for farmers to make agriculture smarter and more efficient.
