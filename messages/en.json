@@ -1,0 +1,414 @@
+{
+  "nav": {
+    "analytics": "Analytics",
+    "recommendations": "Recommendations",
+    "healthChecker": "Health Checker",
+    "schemes": "Schemes",
+    "login": "Login"
+  },
+  "home": {
+    "hero": {
+      "title": "Empowering Farmers with",
+      "titleHighlight": " Smart Technology",
+      "description": "AgroGuard is your complete farming solution providing crop analytics, recommendations, health monitoring, and government scheme updates all in one place.",
+      "getStarted": "Get Started",
+      "exploreFeatures": "Explore Features"
+    },
+    "features": {
+      "title": "Our Features",
+      "analytics": {
+        "title": "Farm Analytics",
+        "description": "Track and analyze your farm performance with detailed insights and metrics."
+      },
+      "recommendations": {
+        "title": "Crop Recommendations",
+        "description": "Get AI-powered crop suggestions based on soil, climate, and market conditions."
+      },
+      "healthChecker": {
+        "title": "Health Checker",
+        "description": "Upload crop images to detect diseases and get treatment recommendations."
+      },
+      "schemes": {
+        "title": "Government Schemes",
+        "description": "Stay updated with the latest agricultural schemes and subsidies."
+      }
+    },
+    "benefits": {
+      "title": "Why Choose AgroGuard?",
+      "dataInsights": {
+        "title": "Data-Driven Insights",
+        "description": "Make informed decisions with real-time analytics and predictive modeling."
+      },
+      "expertGuidance": {
+        "title": "Expert Guidance",
+        "description": "Access agricultural expertise and best practices at your fingertips."
+      },
+      "support": {
+        "title": "24/7 Support",
+        "description": "Get help whenever you need it with our round-the-clock support system."
+      }
+    },
+    "cta": {
+      "title": "Ready to Transform Your Farming?",
+      "subtitle": "Join thousands of farmers already using AgroGuard",
+      "button": "Start Your Journey"
+    }
+  },
+  "analytics": {
+    "title": "Farm Analytics",
+    "subtitle": "Monitor and analyze your farm performance in real-time",
+    "stats": {
+      "totalYield": "Total Yield",
+      "waterUsage": "Water Usage",
+      "weatherIndex": "Weather Index",
+      "revenue": "Revenue"
+    },
+    "charts": {
+      "cropYieldTrends": "Crop Yield Trends",
+      "resourceUtilization": "Resource Utilization",
+      "chartPlaceholder": "Chart visualization area"
+    },
+    "activities": {
+      "title": "Recent Activities",
+      "irrigation": {
+        "title": "Irrigation System Activated",
+        "time": "2 hours ago",
+        "description": "Automated irrigation started in Field A"
+      },
+      "fertilizer": {
+        "title": "Fertilizer Applied",
+        "time": "1 day ago",
+        "description": "Organic fertilizer applied to wheat crop"
+      },
+      "pestControl": {
+        "title": "Pest Control Scheduled",
+        "time": "2 days ago",
+        "description": "Preventive pest control measures scheduled"
+      },
+      "yieldRecorded": {
+        "title": "Yield Recorded",
+        "time": "3 days ago",
+        "description": "Harvested 450 kg of tomatoes from Field B"
+      }
+    }
+  },
+  "recommendations": {
+    "title": "Crop Recommendations",
+    "subtitle": "Get AI-powered crop suggestions based on your farm conditions",
+    "form": {
+      "title": "Farm Details",
+      "location": "Location",
+      "locationPlaceholder": "Enter your location",
+      "soilType": "Soil Type",
+      "soilTypePlaceholder": "Select soil type",
+      "soilTypes": {
+        "clay": "Clay",
+        "sandy": "Sandy",
+        "loamy": "Loamy",
+        "silt": "Silt"
+      },
+      "season": "Season",
+      "seasonPlaceholder": "Select season",
+      "seasons": {
+        "kharif": "Kharif (Monsoon)",
+        "rabi": "Rabi (Winter)",
+        "zaid": "Zaid (Summer)"
+      },
+      "budget": "Budget (₹)",
+      "budgetPlaceholder": "Enter your budget",
+      "submit": "Get Recommendations"
+    },
+    "crops": {
+      "rice": {
+        "name": "Rice",
+        "description": "Highly suitable for your soil type and climate. Best for Kharif season with good water availability."
+      },
+      "wheat": {
+        "name": "Wheat",
+        "description": "Good option for Rabi season. Requires well-drained loamy soil and moderate irrigation."
+      },
+      "cotton": {
+        "name": "Cotton",
+        "description": "Suitable for warm climate. Requires adequate rainfall or irrigation during growth period."
+      },
+      "sugarcane": {
+        "name": "Sugarcane",
+        "description": "Long-term crop with high returns. Requires fertile soil and consistent water supply."
+      }
+    },
+    "metrics": {
+      "expectedYield": "Expected Yield",
+      "investment": "Investment",
+      "duration": "Duration"
+    }
+  },
+  "footer": {
+    "tagline": "Empowering farmers with technology and knowledge for better farming practices.",
+    "quickLinks": "Quick Links",
+    "support": "Support",
+    "contact": "Contact",
+    "links": {
+      "analytics": "Farm Analytics",
+      "recommendations": "Crop Recommendations",
+      "healthChecker": "Health Checker",
+      "schemes": "Government Schemes",
+      "helpCenter": "Help Center",
+      "faqs": "FAQs",
+      "contactUs": "Contact Us",
+      "privacyPolicy": "Privacy Policy"
+    },
+    "copyright": "© 2024 AgroGuard. All rights reserved."
+  },
+  "language": {
+    "select": "Language",
+    "en": "English",
+    "hi": "हिंदी",
+    "ml": "മലയാളം",
+    "te": "తెలుగు",
+    "pa": "ਪੰਜਾਬੀ"
+  },
+  "healthChecker": {
+    "title": "Crop Health Checker",
+    "subtitle": "Upload crop images to detect diseases and get treatment recommendations",
+    "uploadSection": {
+      "title": "Upload Crop Image",
+      "clickToUpload": "Click to upload or drag and drop",
+      "fileFormat": "PNG, JPG up to 10MB",
+      "removeImage": "Remove Image",
+      "analyzing": "Analyzing...",
+      "analyzeImage": "Analyze Image"
+    },
+    "tips": {
+      "title": "Tips for Best Results",
+      "tip1": "Take clear, well-lit photos",
+      "tip2": "Focus on affected areas",
+      "tip3": "Avoid blurry images",
+      "tip4": "Include multiple angles if possible"
+    },
+    "results": {
+      "title": "Analysis Results",
+      "detectedDisease": "Detected Disease",
+      "confidenceLevel": "Confidence Level",
+      "treatmentTitle": "Treatment Recommendations",
+      "preventionTitle": "Prevention Tips",
+      "noAnalysis": "No Analysis Yet",
+      "noAnalysisDesc": "Upload an image to get started with crop health analysis"
+    }
+  },
+  "login": {
+    "title": "Welcome Back",
+    "subtitle": "Sign in to access AgroGuard",
+    "email": "Email Address",
+    "emailPlaceholder": "farmer@example.com",
+    "password": "Password",
+    "passwordPlaceholder": "Enter your password",
+    "rememberMe": "Remember me",
+    "forgotPassword": "Forgot password?",
+    "signIn": "Sign In",
+    "noAccount": "Don't have an account?",
+    "signUp": "Sign Up",
+    "backToHome": "← Back to Home"
+  },
+  "schemes": {
+    "title": "Government Schemes",
+    "subtitle": "Stay updated with the latest agricultural schemes and subsidies",
+    "eligibility": "Eligibility",
+    "benefits": "Benefits",
+    "learnMore": "Learn More",
+    "showingSchemes": "Showing {start} to {end} of {total} schemes",
+    "previous": "Previous",
+    "next": "Next",
+    "list": [
+      {
+        "title": "PM Dhan Dhaanya Krishi Yojana",
+        "category": "Agricultural Transformation",
+        "amount": "₹24,000 crore outlay",
+        "launchDate": "October 2025",
+        "description": "A major new scheme aimed at transforming agriculture across 100 districts. It focuses on enhancing productivity, crop diversification, and improving irrigation and storage.",
+        "eligibility": [
+          "Farmers in 100 designated districts",
+          "Individual and institutional landholders",
+          "Farmer producer organizations (FPOs)"
+        ],
+        "benefits": [
+          "Enhanced productivity support",
+          "Crop diversification incentives",
+          "Improved irrigation infrastructure",
+          "Modern storage facilities"
+        ],
+        "link": "#"
+      },
+      {
+        "title": "Mission for Aatmanirbharta in Pulses",
+        "category": "Pulse Production",
+        "amount": "₹11,440 crore outlay",
+        "launchDate": "October 2025",
+        "description": "This mission aims to make India self-reliant in pulses (like tur, urad, and masoor). It improves productivity, expands cultivation area, and strengthens the value chain.",
+        "eligibility": [
+          "Pulse farmers across India",
+          "Agricultural cooperatives",
+          "Pulse processing units"
+        ],
+        "benefits": [
+          "Improved productivity support",
+          "Area expansion assistance",
+          "Value chain strengthening",
+          "Market linkage facilitation"
+        ],
+        "link": "#"
+      },
+      {
+        "title": "Tripura's ARC Potato Cultivation Scheme",
+        "category": "State-Level Initiative",
+        "amount": "₹3,000 per farmer",
+        "launchDate": "November 2025",
+        "description": "Provides 6,000 farmers with ₹2,000 in direct financial support and ₹1,000 in agricultural materials to adopt the high-yield ARC (Aeroponic Rooted Cutting) method for potato farming.",
+        "eligibility": [
+          "Potato farmers in Tripura",
+          "Minimum land holding of 0.5 acres",
+          "Willingness to adopt ARC method"
+        ],
+        "benefits": [
+          "₹2,000 direct financial support",
+          "₹1,000 in agricultural materials",
+          "Training on ARC method",
+          "Technical guidance"
+        ],
+        "link": "#"
+      },
+      {
+        "title": "Rural Prosperity and Resilience Programme",
+        "category": "Multi-Sectoral Development",
+        "amount": "To be announced",
+        "launchDate": "Early 2025",
+        "description": "A new multi-sectoral initiative to address underemployment in the agriculture sector through skilling, investment, and technology.",
+        "eligibility": [
+          "Rural farmers and agricultural workers",
+          "Youth in agricultural sector",
+          "Agricultural enterprises"
+        ],
+        "benefits": [
+          "Skilling and training programs",
+          "Investment support",
+          "Technology adoption assistance",
+          "Employment generation"
+        ],
+        "link": "#"
+      },
+      {
+        "title": "National Mission on High Yielding Seeds",
+        "category": "Seed Development",
+        "amount": "To be announced",
+        "launchDate": "2025",
+        "description": "Focused on strengthening research and commercial availability of high-yield, pest-resistant, and climate-resilient seeds to boost crop output.",
+        "eligibility": [
+          "All farmers",
+          "Seed production agencies",
+          "Agricultural research institutions"
+        ],
+        "benefits": [
+          "Access to high-yield seeds",
+          "Pest-resistant varieties",
+          "Climate-resilient options",
+          "Research support"
+        ],
+        "link": "#"
+      },
+      {
+        "title": "Revised National Programme for Dairy Development",
+        "category": "Dairy Sector",
+        "amount": "Enhanced allocation",
+        "launchDate": "2025",
+        "description": "Key additions approved to improve milk procurement, processing capacity, and market access for dairy farmers.",
+        "eligibility": [
+          "Dairy farmers",
+          "Dairy cooperatives",
+          "Milk processing units"
+        ],
+        "benefits": [
+          "Improved milk procurement",
+          "Enhanced processing capacity",
+          "Better market access",
+          "Quality improvement support"
+        ],
+        "link": "#"
+      },
+      {
+        "title": "Revised Rashtriya Gokul Mission",
+        "category": "Cattle Breed Improvement",
+        "amount": "With new components",
+        "launchDate": "2025",
+        "description": "Updated with new components, including one-time assistance for heifer rearing centers and interest subvention for farmers purchasing high-genetic-merit heifers.",
+        "eligibility": [
+          "Cattle farmers",
+          "Heifer rearing centers",
+          "Gaushalas and breeding centers"
+        ],
+        "benefits": [
+          "One-time assistance for rearing centers",
+          "Interest subvention on heifer purchase",
+          "High-genetic-merit cattle access",
+          "Breed improvement support"
+        ],
+        "link": "#"
+      },
+      {
+        "title": "Krishi Udaan 2.0",
+        "category": "Agricultural Logistics",
+        "amount": "Revised allocation",
+        "launchDate": "2025",
+        "description": "Facilitates the transport of agricultural produce (especially perishables) by air to strengthen market access for farmers in remote and northeastern regions.",
+        "eligibility": [
+          "Farmers in remote regions",
+          "Farmers in northeastern states",
+          "Farmer producer organizations"
+        ],
+        "benefits": [
+          "Air transport facilitation",
+          "Better market access",
+          "Reduced post-harvest losses",
+          "Premium price realization"
+        ],
+        "link": "#"
+      },
+      {
+        "title": "PM Matsya Sampada Yojana (Upgraded)",
+        "category": "Fisheries Development",
+        "amount": "Upgraded allocation",
+        "launchDate": "2025",
+        "description": "Received significant upgrades including new support for technology adoption in aquaculture (like sensors and aerators) and grants for modern fish landing centers.",
+        "eligibility": [
+          "Fishermen and fish farmers",
+          "Aquaculture enterprises",
+          "Fish processing units"
+        ],
+        "benefits": [
+          "Technology adoption support",
+          "Modern equipment grants",
+          "Fish landing center upgrades",
+          "Aquaculture infrastructure"
+        ],
+        "link": "#"
+      },
+      {
+        "title": "Agricultural Technology Management Agency (ATMA)",
+        "category": "Extension Services",
+        "amount": "Major update",
+        "launchDate": "April 2025",
+        "description": "Promotes farmer-centric extension services and received a major update solidifying its role in disseminating modern agricultural technology.",
+        "eligibility": [
+          "All farmers",
+          "Agricultural extension workers",
+          "Farmer groups and FPOs"
+        ],
+        "benefits": [
+          "Modern technology dissemination",
+          "Farmer-centric extension services",
+          "Training and capacity building",
+          "Technology demonstration"
+        ],
+        "link": "#"
+      }
+    ]
+  }
+}
